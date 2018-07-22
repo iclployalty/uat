@@ -6,3 +6,15 @@
 
 2018-07-22T11:47:45+00:00 CRITICAL Out of memory (allocated 23330816) (tried to allocate 815729 bytes)
 
+2018-07-22T12:16:01+00:00 CRITICAL Out of memory (allocated 23855104) (tried to allocate 3072 bytes)
+
+2018-07-22T12:45:10+00:00 CRITICAL Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/compareproviders/public_html/uat/wp-content/plugins/wp-awesome-import-export/includes/ACS.php:699
+Stack trace:
+#0 /home/compareproviders/public_html/uat/wp-content/plugins/wp-awesome-import-export/includes/ACS.php(699): SimpleXMLElement->__construct('')
+#1 /home/compareproviders/public_html/uat/wp-content/plugins/wp-awesome-import-export/includes/ACS_View.php(133): ACS->xmlToArray('/home/comparepr...')
+#2 /home/compareproviders/public_html/uat/wp-content/plugins/wp-awesome-import-export/templates/import/importView.php(31): ACS_View->renderUploadedFile()
+#3 /home/compareproviders/public_html/uat/wp-content/plugins/wp-awesome-import-export/includes/ACS_View.php(8): require_once('/home/comparepr...')
+#4 /home/compareproviders/public_html/uat/wp-content/plugins/wp-awesome-import-export/includes/ACS.php(222): ACS_View->importView()
+#5 [internal function]: ACS->wpaie_import('')
+#6 /home/compareproviders/public_html/uat/wp-inclu
+
