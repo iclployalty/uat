@@ -25,7 +25,7 @@ include_once __DIR__ . '/wp-config.common.php';
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('REVISR_WORK_TREE', '/home/compareproviders/public_html/uat/'); // Added by Revisr
-define('REVISR_GIT_PATH', ''); // Added by Revisr
+define('REVISR_GIT_PATH', 'https://github.com/iclployalty/uat.git'); // Added by Revisr
 define('DB_NAME', 'comparep_wp236');
 
 /** MySQL database username */
