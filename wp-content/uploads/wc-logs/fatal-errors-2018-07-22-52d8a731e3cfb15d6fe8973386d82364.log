@@ -18,3 +18,17 @@ Stack trace:
 #5 [internal function]: ACS->wpaie_import('')
 #6 /home/compareproviders/public_html/uat/wp-inclu
 
+2018-07-22T14:24:34+00:00 CRITICAL Out of memory (allocated 24903680) (tried to allocate 256 bytes)
+
+2018-07-22T14:25:00+00:00 CRITICAL Out of memory (allocated 24903680) (tried to allocate 87 bytes)
+
+2018-07-22T14:29:35+00:00 CRITICAL Out of memory (allocated 24903680) (tried to allocate 90 bytes)
+
+2018-07-22T18:34:22+00:00 CRITICAL Out of memory (allocated 36438016) (tried to allocate 26880 bytes)
+
+2018-07-22T18:34:22+00:00 CRITICAL Out of memory (allocated 35913728) (tried to allocate 55200 bytes)
+
+2018-07-22T18:37:41+00:00 CRITICAL Out of memory (allocated 23068672) (tried to allocate 870155 bytes)
+
+2018-07-22T18:37:43+00:00 CRITICAL Out of memory (allocated 22544384) (tried to allocate 1329504 bytes)
+

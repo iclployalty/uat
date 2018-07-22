@@ -43,7 +43,7 @@ CREATE TABLE `wpjj_bp_activity` (
 
 LOCK TABLES `wpjj_bp_activity` WRITE;
 /*!40000 ALTER TABLE `wpjj_bp_activity` DISABLE KEYS */;
-INSERT INTO `wpjj_bp_activity` VALUES (1,1,'members','last_activity','','','',0,NULL,'2018-07-22 18:22:04',0,0,0,0);
+INSERT INTO `wpjj_bp_activity` VALUES (1,1,'members','last_activity','','','',0,NULL,'2018-07-22 18:34:35',0,0,0,0);
 /*!40000 ALTER TABLE `wpjj_bp_activity` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
