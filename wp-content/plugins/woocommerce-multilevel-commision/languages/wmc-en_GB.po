@@ -1,0 +1,851 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-multilevel-commision\n"
+"POT-Creation-Date: 2016-11-21 17:30+0530\n"
+"PO-Revision-Date: 2016-11-21 17:30+0530\n"
+"Last-Translator: Sagar Shinde <sagar@prismitsystems.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/admin/metabox-product.php:32
+msgid "Exclude Product from Credit"
+msgstr "Exclude Product from Credit"
+
+#: classes/admin/referral.php:38 classes/admin/settings-general.php:76
+#: classes/referral-users.php:843 classes/referral-users.php:845
+msgid "Referral"
+msgstr "Referral"
+
+#: classes/admin/settings-general.php:98
+msgid "Select Page"
+msgstr "Select Page"
+
+#: classes/admin/settings-general.php:106
+msgid "Activate your Copy"
+msgstr "Activate your Copy"
+
+#: classes/admin/settings-general.php:108
+msgid "Purchase Code"
+msgstr "Purchase Code"
+
+#: classes/admin/settings-general.php:109
+msgid "Enter Purchase Code."
+msgstr "Enter Purchase Code."
+
+#: classes/admin/settings-general.php:119
+msgid "Referral Options"
+msgstr "Referral Options"
+
+#: classes/admin/settings-general.php:121
+msgid "Global Store Credit (%)"
+msgstr "Global Store Credit (%)"
+
+#: classes/admin/settings-general.php:122
+msgid ""
+"1. The defined credit points will be deposited in affiliate users account."
+"<br>2. For more information about \"How credit system works?\" visit <a href="
+"\"http://referral.prismitworks.com/#ffs-tabbed-13\" target=\"_blank\">here</"
+"a>"
+msgstr ""
+"1. The defined credit points will be deposited in affiliate users account."
+"<br>2. For more information about \"How credit system works?\" visit <a href="
+"\"http://referral.prismitworks.com/#ffs-tabbed-13\" target=\"_blank\">here</"
+"a>"
+
+#: classes/admin/settings-general.php:129
+msgid "Welcome Credit"
+msgstr "Welcome to {site_title}"
+
+#: classes/admin/settings-general.php:130
+msgid ""
+"1. All Users : All users including the existing ones will be presented with "
+"Welcome Credits on their first purchase."
+msgstr ""
+"1. All Users : All users including the existing ones will be presented with "
+"Welcome Credits on their first purchase."
+
+#: classes/admin/settings-general.php:130
+msgid ""
+"2. New Users : Only the newly registered users will be presented with "
+"Welcome Credits on their first purchase. Existing users are not entitled for "
+"this benefit."
+msgstr ""
+"2. New Users : Only the newly registered users will be presented with "
+"Welcome Credits on their first purchase. Existing users are not entitled for "
+"this benefit."
+
+#: classes/admin/settings-general.php:137
+msgid "All Users"
+msgstr "All Users"
+
+#: classes/admin/settings-general.php:138
+msgid "New Users"
+msgstr "New Users"
+
+#: classes/admin/settings-general.php:142
+msgid "Credit validity by period"
+msgstr "Credit validity by period"
+
+#: classes/admin/settings-general.php:143
+msgid "This sets the number of months/years for expire credits."
+msgstr "This sets the number of months/years for expire credits."
+
+#: classes/admin/settings-general.php:159
+msgid "Select expiry"
+msgstr "Select expiry"
+
+#: classes/admin/settings-general.php:160
+msgid "Month"
+msgstr "Month"
+
+#: classes/admin/settings-general.php:161
+msgid "Year"
+msgstr "Year"
+
+#: classes/admin/settings-general.php:166
+msgid "Notification Mail Time"
+msgstr "Notification Mail Time"
+
+#: classes/admin/settings-general.php:167
+msgid ""
+"This sets the number of days for send notification mail for expire credits."
+msgstr ""
+"This sets the number of days for send notification mail for expire credits."
+
+#: classes/admin/settings-general.php:175
+msgid "Monthly max credit limit"
+msgstr "Monthly max credit limit"
+
+#: classes/admin/settings-general.php:176
+msgid ""
+"The credit points will not be credited more than defined limit in the period "
+"of one month"
+msgstr ""
+"The credit points will not be credited more than defined limit in the period "
+"of one month"
+
+#: classes/admin/settings-general.php:184
+msgid "Max Redemption (%)"
+msgstr "Max Redemption (%)"
+
+#: classes/admin/settings-general.php:185
+msgid ""
+"You can define the limit for redemption. If you set 50% then user can not be "
+"redeem points more than 50% of product price."
+msgstr ""
+"You can define the limit for redemption. If you set 50% then user can not be "
+"redeem points more than 50% of product price."
+
+#: classes/admin/settings-general.php:193
+#: classes/admin/settings-general.php:200
+msgid "Exclude products"
+msgstr "Exclude products"
+
+#: classes/admin/settings-general.php:194
+msgid ""
+"Select the product which you want to be exclude from this referral program"
+msgstr ""
+"Select the product which you want to be exclude from this referral program"
+
+#: classes/admin/settings-general.php:208
+msgid "Terms And Conditions Page"
+msgstr "Terms And Conditions Page"
+
+#: classes/admin/settings-general.php:209
+msgid "Select the terms and condition page"
+msgstr "Select the terms and condition page"
+
+#: classes/admin/settings-general.php:218
+msgid "Auto Join"
+msgstr "Auto Join"
+
+#: classes/admin/settings-general.php:219
+msgid ""
+"Select \"Yes\" if you want to register users automatically to referral "
+"program"
+msgstr ""
+"Select \"Yes\" if you want to register users automatically to referral "
+"program"
+
+#: classes/admin/settings-general.php:226
+msgid "No"
+msgstr "No"
+
+#: classes/admin/settings-general.php:227
+msgid "Yes"
+msgstr "Yes"
+
+#: classes/admin/settings-general.php:231
+msgid "Category Credit Preference"
+msgstr "Category Credit Preference"
+
+#: classes/admin/settings-general.php:232
+msgid ""
+"In case of multiple category selected for product, this setting will decide "
+"which credit percentage should be used. If \"Highest\" selected then highest "
+"percentage between all the categories will be considered, if \"Lowest\" "
+"selected lowest percentage will be considered"
+msgstr ""
+"In case of multiple category selected for product, this setting will decide "
+"which credit percentage should be used. If \"Highest\" selected then highest "
+"percentage between all the categories will be considered, if \"Lowest\" "
+"selected lowest percentage will be considered"
+
+#: classes/admin/settings-general.php:239
+msgid "Lowest"
+msgstr "Lowest"
+
+#: classes/admin/settings-general.php:240
+msgid "Highest"
+msgstr "Highest"
+
+#: classes/admin/settings-general.php:257
+#: classes/admin/settings-general.php:268
+#: classes/admin/settings-general.php:330
+msgid "Affiliate Credit (%)"
+msgstr "Affiliate Credit (%)"
+
+#: classes/admin/settings-general.php:259
+#: classes/admin/settings-general.php:271
+msgid ""
+"Enter a credit percentage, this percentage will apply for all the products "
+"in this category"
+msgstr ""
+"Enter a credit percentage, this percentage will apply for all the products "
+"in this category"
+
+#: classes/admin/settings-general.php:321
+msgid "Multilevel Referral"
+msgstr "Multilevel Referral"
+
+#: classes/admin/settings-general.php:326
+msgid "Multilevel Referral Plugin Settings"
+msgstr "Multilevel Referral Plugin Settings"
+
+#: classes/admin/settings-general.php:333
+msgid ""
+"1. The defined credit points will be deposited in affiliate users account, "
+"when user purchase this product.<br>2. For more information about \"How "
+"credit system works?\" visit <a href=\"http://referral.prismitworks.com/#ffs-"
+"tabbed-13\" target=\"_blank\">here</a>"
+msgstr ""
+"1. The defined credit points will be deposited in affiliate users account, "
+"when user purchase this product.<br>2. For more information about \"How "
+"credit system works?\" visit <a href=\"http://referral.prismitworks.com/#ffs-"
+"tabbed-13\" target=\"_blank\">here</a>"
+
+#: classes/admin/table-credit_logs.php:25
+#: classes/admin/table-credit_logs.php:68
+#: classes/admin/table-orderwise_credits.php:26
+#: classes/admin/table-orderwise_credits.php:69 classes/referral-users.php:554
+#: views/front/myaccount.php:50
+msgid "Order"
+msgstr "Order"
+
+#: classes/admin/table-credit_logs.php:26
+#: classes/admin/table-orderwise_credits.php:27
+msgid "Orders"
+msgstr "Orders"
+
+#: classes/admin/table-credit_logs.php:36
+#: classes/admin/table-orderwise_credits.php:38
+msgid "No orders avaliable."
+msgstr "No orders avaliable."
+
+#: classes/admin/table-credit_logs.php:69 classes/admin/table-users.php:96
+#: classes/referral-users.php:464
+msgid "Name"
+msgstr "Name"
+
+#: classes/admin/table-credit_logs.php:70
+#: classes/admin/table-orderwise_credits.php:71
+#: views/admin/referral-header.php:37
+msgid "Earned Credits"
+msgstr "Earned Credits"
+
+#: classes/admin/table-credit_logs.php:71 views/admin/referral-header.php:44
+msgid "Redeemed Credits"
+msgstr "Redeemed Credits"
+
+#: classes/admin/table-orderwise_credits.php:70
+msgid "Customer Name"
+msgstr "Customer Name"
+
+#: classes/admin/table-users.php:14
+msgid "User"
+msgstr "User"
+
+#: classes/admin/table-users.php:15
+msgid "Users"
+msgstr "Users"
+
+#: classes/admin/table-users.php:36
+msgid "No users found, dude."
+msgstr "No users found, dude."
+
+#: classes/admin/table-users.php:69
+msgid "Search By Name"
+msgstr "Search By Name"
+
+#: classes/admin/table-users.php:70
+msgid "Search By Email"
+msgstr "Search By Email"
+
+#: classes/admin/table-users.php:71
+msgid "Date Range"
+msgstr "Date Range"
+
+#: classes/admin/table-users.php:74 views/front/store-credits-notice.php:8
+msgid "Apply"
+msgstr "Apply"
+
+#: classes/admin/table-users.php:75
+msgid "Reset"
+msgstr "Reset"
+
+#: classes/admin/table-users.php:97
+msgid "Email"
+msgstr "Email"
+
+#: classes/admin/table-users.php:98 classes/referral-users.php:464
+#: views/front/join-form.php:9 views/front/register_form_end_fields.php:12
+#: views/front/register_form_end_fields.php:35
+msgid "Referral Code"
+msgstr "Referral Code"
+
+#: classes/admin/table-users.php:99 classes/referral-users.php:464
+#: views/admin/users.php:11
+msgid "Join Date"
+msgstr "Join Date"
+
+#: classes/admin/table-users.php:100
+msgid "No of Followers"
+msgstr "No of Followers"
+
+#: classes/admin/table-users.php:101
+msgid "Total Credits"
+msgstr "Total Credits"
+
+#: classes/admin/table-users.php:102
+msgid "Hierarchy"
+msgstr "Hierarchy"
+
+#: classes/admin/table-users.php:109
+msgid "Deactive Date"
+msgstr "Deactive Date"
+
+#: classes/admin/table-users.php:294
+msgid "Edit"
+msgstr "Edit"
+
+#: classes/admin/table-users.php:317
+#, php-format
+msgid "Select %s"
+msgstr "Select %s"
+
+#: classes/admin/table-users.php:394
+msgid "View hierarchy"
+msgstr "View hierarchy"
+
+#: classes/admin/table-users.php:397
+msgid "Add back to referrals"
+msgstr "Add back to referrals"
+
+#: classes/referral-mail.php:149 classes/referral-mail2.php:113
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+
+#: classes/referral-mail.php:160 classes/referral-mail2.php:124
+msgid "Plain text"
+msgstr "Plain text"
+
+#: classes/referral-mail.php:161 classes/referral-mail2.php:125
+msgid "HTML"
+msgstr "HTML"
+
+#: classes/referral-mail.php:162 classes/referral-mail2.php:126
+msgid "Multipart"
+msgstr "Multipart"
+
+#: classes/referral-users.php:354 views/front/myaccount.php:7
+msgid "Invite Friends"
+msgstr "Invite Friends"
+
+#: classes/referral-users.php:357 views/front/myaccount.php:10
+msgid "Invite your friends"
+msgstr "Invite your friends"
+
+#: classes/referral-users.php:358 views/front/myaccount.php:17
+msgid ""
+"You can earn more credits by inviting more people to join this referral "
+"program. You can add comma separated list of emails below ..."
+msgstr ""
+"You can earn more credits by inviting more people to join this referral "
+"program. You can add comma separated list of emails below ..."
+
+#: classes/referral-users.php:366
+msgid "Invite"
+msgstr "Invite"
+
+#: classes/referral-users.php:386
+msgid "Share on Social Media"
+msgstr "Share on Social Media"
+
+#: classes/referral-users.php:387
+msgid "Select promotional banner from the following to share on social media"
+msgstr "Select promotional banner from the following to share on social media"
+
+#: classes/referral-users.php:391
+msgid "Referral Code : "
+msgstr "Referral Code : "
+
+#: classes/referral-users.php:415 classes/referral-users.php:443
+msgid "Visit"
+msgstr "Visit"
+
+#: classes/referral-users.php:462
+msgid "My Affiliates"
+msgstr "My Affiliates"
+
+#: classes/referral-users.php:464
+msgid "Show/Hide"
+msgstr "Show/Hide"
+
+#: classes/referral-users.php:464
+msgid "Affiliates"
+msgstr "Affiliates"
+
+#: classes/referral-users.php:468
+msgid ""
+"Could not find any affiliate users. Please invite more friends and "
+"colleagues to start earning credit points."
+msgstr ""
+"Could not find any affiliate users. Please invite more friends and "
+"colleagues to start earning credit points."
+
+#: classes/referral-users.php:470
+msgid "Affiliates : "
+msgstr "Affiliates : "
+
+#: classes/referral-users.php:470
+msgid ""
+"This particular column shows the number of Affiliates for the corresponding "
+"affiliate member."
+msgstr ""
+"This particular column shows the number of Affiliates for the corresponding "
+"affiliate member."
+
+#: classes/referral-users.php:506
+msgid "View Hirarchy"
+msgstr "View Hirarchy"
+
+#: classes/referral-users.php:537 views/front/myaccount.php:32
+msgid "Referral Program Details"
+msgstr "Referral Program Details"
+
+#: classes/referral-users.php:540 views/front/myaccount.php:35
+msgid "Your Referral Code"
+msgstr "Your Referral Code"
+
+#: classes/referral-users.php:541 views/front/myaccount.php:36
+msgid "Store Credits"
+msgstr "Store Credits"
+
+#: classes/referral-users.php:542 views/front/myaccount.php:37
+msgid "Total Followers"
+msgstr "Total Followers"
+
+#: classes/referral-users.php:555 views/front/myaccount.php:51
+msgid "Date"
+msgstr "Date"
+
+#: classes/referral-users.php:556 views/front/myaccount.php:52
+msgid "Note"
+msgstr "Note"
+
+#: classes/referral-users.php:565 classes/referral-users.php:576
+#: views/front/myaccount.php:64 views/front/myaccount.php:76
+#, php-format
+msgid "%s Store credit is refund for order %s."
+msgstr "%s Store credit is refund for order %s."
+
+#: classes/referral-users.php:567 views/front/myaccount.php:66
+#, php-format
+msgid "%s Store credit is earned from order %s."
+msgstr "%s Store credit is earned from order %s."
+
+#: classes/referral-users.php:570 views/front/myaccount.php:69
+#, php-format
+msgid "%s Store credit is earned through referral user ( %s order %s )  "
+msgstr "%s Store credit is earned through referral user ( %s order %s )  "
+
+#: classes/referral-users.php:579 views/front/myaccount.php:79
+#, php-format
+msgid "%s Store credit is used in order %s."
+msgstr "%s Store credit is used in order %s."
+
+#: classes/referral-users.php:581 views/front/myaccount.php:81
+#, php-format
+msgid "%s Store credit is expired."
+msgstr "%s Store credit is expired."
+
+#: classes/referral-users.php:613
+msgid "Please enter a valid E-mail address."
+msgstr "Please enter a valid E-mail address."
+
+#: classes/referral-users.php:645
+msgid ""
+"The user is already part of our referral program, please try with different "
+"E-mail address."
+msgstr ""
+"The user is already part of our referral program, please try with different "
+"E-mail address."
+
+#: classes/referral-users.php:649
+msgid "E-mail address is invalid."
+msgstr "E-mail address is invalid."
+
+#: classes/referral-users.php:654
+msgid "We can not send invitation to below listed E-mail addresses."
+msgstr "We can not send invitation to below listed E-mail addresses."
+
+#: classes/referral-users.php:657
+msgid "Your invitations are sent succesfully!"
+msgstr "Your invitations are sent succesfully!"
+
+#: classes/referral-users.php:661 classes/referral-users.php:685
+#: classes/woocommerce-order.php:63 classes/woocommerce-order.php:202
+#: classes/woocommerce-order.php:346 classes/woocommerce-order.php:373
+msgid "Error"
+msgstr "Error"
+
+#: classes/referral-users.php:681
+msgid "Thanks for joining the referral program"
+msgstr "Thanks for joining the referral program"
+
+#: classes/referral-users.php:700
+msgid "Please enter the First name."
+msgstr "Please enter the First name."
+
+#: classes/referral-users.php:703
+msgid "Please enter the Last name."
+msgstr "Please enter the Last name."
+
+#: classes/referral-users.php:708
+msgid "You must have to add referral code to join referral program."
+msgstr "You must have to add referral code to join referral program."
+
+#: classes/referral-users.php:712
+msgid "E-mail address is invalid"
+msgstr "E-mail address is invalid"
+
+#: classes/referral-users.php:718
+msgid "There is no such referral code exist<strong>("
+msgstr "There is no such referral code exist<strong>("
+
+#: classes/referral-users.php:729
+msgid "This referral E-mail <strong>("
+msgstr "This referral E-mail <strong>("
+
+#: classes/referral-users.php:734
+msgid "Please accept referral Program terms and conditions"
+msgstr "Please accept referral Program terms and conditions"
+
+#: classes/woocommerce-multilevel-referral.php:345
+msgid "This is the promotional banner"
+msgstr "This is the promotional banner"
+
+#: classes/woocommerce-multilevel-referral.php:412
+msgid "All Banners"
+msgstr "All Banners"
+
+#: classes/woocommerce-order.php:56
+msgid ""
+"Please make sure that amount should be equal or less than the maximum limit."
+msgstr ""
+"Please make sure that amount should be equal or less than the maximum limit."
+
+#: classes/woocommerce-order.php:60
+msgid "Store credits successfully applied"
+msgstr "Store credits successfully applied"
+
+#: classes/woocommerce-order.php:190
+#, php-format
+msgid "You have earned %s store points."
+msgstr "You have earned %s store points."
+
+#: classes/woocommerce-order.php:392
+#, php-format
+msgid "You can not use Store credit in following products: %s"
+msgstr "You can not use Store credit in following products: %s"
+
+#: classes/woocommerce-order.php:419
+msgid "Store Credit"
+msgstr "Store Credit"
+
+#: classes/woocommerce-order.php:487
+msgid "Store credits is removed becuase of cart total is same as discount."
+msgstr "Store credits is removed becuase of cart total is same as discount."
+
+#: classes/woocommerce-order.php:526
+msgid "Remove"
+msgstr "Remove"
+
+#: views/admin/credit_logs.php:2
+msgid "Credit logs"
+msgstr "Credit logs"
+
+#: views/admin/email_templates.php:2 views/admin/referral-header.php:7
+msgid "Email templates"
+msgstr "Email templates"
+
+#: views/admin/email_templates.php:16
+msgid "Joining mail for referral program"
+msgstr "Joining mail for referral program"
+
+#: views/admin/email_templates.php:20 views/admin/email_templates.php:31
+msgid "You can use {referral_code} to replace respective referral code."
+msgstr "You can use {referral_code} to replace respective referral code."
+
+#: views/admin/email_templates.php:21 views/admin/email_templates.php:32
+msgid "You can use {first_name} to replace respective user name."
+msgstr "You can use {first_name} to replace respective user name."
+
+#: views/admin/email_templates.php:22 views/admin/email_templates.php:33
+msgid "You can use {last_name} to replace respective user name."
+msgstr "You can use {last_name} to replace respective user name."
+
+#: views/admin/email_templates.php:27
+msgid "Invitation mail for Referral users"
+msgstr "Invitation mail for Referral users"
+
+#: views/admin/email_templates.php:34
+msgid ""
+"You can use [referral_link text=\"Click here\"] to replace respective user "
+"referral link."
+msgstr ""
+"You can use [referral_link text=\"Click here\"] to replace respective user "
+"referral link."
+
+#: views/admin/email_templates.php:39
+msgid "Expire credit notification"
+msgstr "Expire credit notification"
+
+#: views/admin/email_templates.php:43
+msgid "{available_credits} - Replace respective user credits."
+msgstr "{available_credits} - Replace respective user credits."
+
+#: views/admin/email_templates.php:44
+msgid "{first_name} - Replace respective user name."
+msgstr "{first_name} - Replace respective user name."
+
+#: views/admin/email_templates.php:45
+msgid "{last_name} - Replace respective user name."
+msgstr "{last_name} - Replace respective user name."
+
+#: views/admin/email_templates.php:46
+msgid "{expire_date} - Replace respective expiry date of user credits."
+msgstr "{expire_date} - Replace respective expiry date of user credits."
+
+#: views/admin/email_templates.php:47
+msgid "{validity_period} - Replace respective store credit validity."
+msgstr "{validity_period} - Replace respective store credit validity."
+
+#: views/admin/email_templates.php:48
+msgid "{today_date} - Replace respective current date."
+msgstr "{today_date} - Replace respective current date."
+
+#: views/admin/email_templates.php:49
+msgid "{expire_month} - Replace respective credit expired month."
+msgstr "{expire_month} - Replace respective credit expired month."
+
+#: views/admin/email_templates.php:50
+msgid "{expire_credits} - Replace respective expired credits."
+msgstr "{expire_credits} - Replace respective expired credits."
+
+#: views/admin/email_templates.php:55
+msgid "Save template"
+msgstr "Save template"
+
+#: views/admin/orderwise_credits.php:2
+msgid "Orderwise credits"
+msgstr "Orderwise credits"
+
+#: views/admin/referral-header.php:4 views/admin/referral-users.php:2
+msgid "Referral users"
+msgstr "Referral users"
+
+#: views/admin/referral-header.php:5
+msgid "Orderwise user credits"
+msgstr "Orderwise user credits"
+
+#: views/admin/referral-header.php:6
+msgid "Point logs"
+msgstr "Point logs"
+
+#: views/admin/referral-header.php:8
+msgid "Banners"
+msgstr "Banners"
+
+#: views/admin/referral-header.php:10
+msgid "Deleted Referrals"
+msgstr "Deleted Referrals"
+
+#: views/admin/referral-header.php:16
+msgid "WooCommerce Multilevel Referral Plugin"
+msgstr "WooCommerce Multilevel Referral Plugin"
+
+#: views/admin/referral-header.php:23
+msgid "Total Users"
+msgstr "Total Users"
+
+#: views/admin/referral-header.php:30
+msgid "Referrals"
+msgstr "Referrals"
+
+#: views/admin/referral-users.php:12
+#, fuzzy
+msgid "is successfully activated"
+msgstr "Store credits successfully applied"
+
+#: views/admin/users.php:6
+msgid "Referral Program Statistics"
+msgstr "Referral Program Statistics"
+
+#: views/admin/users.php:14
+msgid "Joining date of referral user"
+msgstr "Joining date of referral user"
+
+#: views/admin/users.php:18
+msgid "Referral Discount"
+msgstr "Referral Discount"
+
+#: views/admin/users.php:21
+msgid "Status of referral user for discount that taken or not?"
+msgstr "Status of referral user for discount that taken or not?"
+
+#: views/admin/users.php:25
+msgid "Referral code"
+msgstr "Referral code"
+
+#: views/admin/users.php:28
+msgid "Auto generated referral code for referral users"
+msgstr "Auto generated referral code for referral users"
+
+#: views/front/join-form.php:1
+msgid "Join Referral Program"
+msgstr "Join Referral Program"
+
+#: views/front/join-form.php:5 views/front/register_form_end_fields.php:22
+msgid "I have the referral code and want to join referral program."
+msgstr "I have the referral code and want to join referral program."
+
+#: views/front/join-form.php:6 views/front/register_form_end_fields.php:23
+msgid ""
+"I don't have referral code or I lost it. But I wish to join referral program."
+msgstr ""
+"I don't have referral code or I lost it. But I wish to join referral program."
+
+#: views/front/join-form.php:11 views/front/register_form_end_fields.php:37
+msgid "&nbsp;"
+msgstr ""
+
+#: views/front/join-form.php:18 views/front/register_form_end_fields.php:27
+msgid "I've read and agree to the referral program "
+msgstr "I've read and agree to the referral program "
+
+#: views/front/join-form.php:19
+msgid "terms and conditions"
+msgstr "Terms and Conditions"
+
+#: views/front/join-form.php:23
+msgid "Join"
+msgstr "Join"
+
+#: views/front/myaccount.php:25
+msgid "Send Invitations"
+msgstr "Send Invitations"
+
+#: views/front/register_form_end_fields.php:13
+msgid "Add referral code if you have"
+msgstr "Add referral code if you have"
+
+#: views/front/register_form_end_fields.php:16
+msgid ""
+"By registering here, you agree to the terms, conditions, refunds policy, and "
+"privacy statement"
+msgstr ""
+"By registering here, you agree to the terms, conditions, refunds policy, and "
+"privacy statement"
+
+#: views/front/register_form_end_fields.php:24
+msgid "No, I don't want to be a part of referral program at this time."
+msgstr "No, I don't want to be a part of referral program at this time."
+
+#: views/front/register_form_end_fields.php:28
+msgid "terms & conditions"
+msgstr "terms & conditions"
+
+#: views/front/register_form_start_fields.php:2
+msgid "First name"
+msgstr "First name"
+
+#: views/front/register_form_start_fields.php:7
+msgid "Last name"
+msgstr "Last name"
+
+#: views/front/store-credits-notice.php:2
+#, php-format
+msgid "You have %s store credits."
+msgstr "You have %s store credits."
+
+#: views/front/store-credits-notice.php:3
+msgid "Redeem now."
+msgstr "Redeem now."
+
+#: views/front/store-credits-notice.php:9
+#, php-format
+msgid "You can use max %s as store credit."
+msgstr "You can use max %s as store credit."
+
+#: views/requirements-error.php:2
+msgid ""
+"error: Your environment does not meet all of the system requirements listed "
+"below."
+msgstr ""
+"error: Your environment does not meet all of the system requirements listed "
+"below."
+
+#: views/requirements-error.php:6 views/requirements-error.php:10
+msgid "You're running version "
+msgstr "You're running version "
+
+#: views/requirements-error.php:16
+msgid ""
+"If you need to upgrade your version of PHP you can ask your hosting company "
+"for assistance, and if you need help upgrading WordPress you can refer to"
+msgstr ""
+"If you need to upgrade your version of PHP you can ask your hosting company "
+"for assistance, and if you need help upgrading WordPress you can refer to"
+
+#: views/requirements-error.php:16
+msgid "the "
+msgstr "the "
+
+#~ msgid "Could not find any affiliate users."
+#~ msgstr "Could not find any affiliate users."
+
+#~ msgid "Please enter email id."
+#~ msgstr "Please enter a valid E-mail Address"

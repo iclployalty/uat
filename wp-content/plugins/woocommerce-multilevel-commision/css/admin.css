@@ -1,0 +1,320 @@
+#dialog_referral_user a,
+#dialog_referral_user a:hover,
+#dialog_referral_user a:focus{
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    position: relative;
+    color: #333;
+}
+#dialog_referral_user .remove_referral_user {
+    background: rgba(0, 0, 0, 0) url("../images/close_window.png") no-repeat scroll center bottom;
+    display: inline-block;
+    height: 14px;
+    line-height: 100%;
+    margin-left: 5px;
+    position: relative;
+    text-indent: -9999px !important;
+    transition: none 0s ease 0s ;
+    width: 14px;
+}
+#dialog_referral_user .remove_referral_user:hover {
+    background-position: center top;
+}
+#dialog_referral_user li ul{
+     margin-left: 20px;
+     padding-top: 4px;
+}
+
+#dialog_referral_user ul {
+    border-left: 1px solid #000;
+    padding-left: 10px;
+    position: relative;
+    list-style: none;
+}
+#dialog_referral_user ul li::before {
+    background: #000 none repeat scroll 0 0;
+    border: medium none;
+    content: "";
+    height: 1px;
+    margin-left: -12px;
+    margin-top: 10px;
+    position: absolute;
+    width: 10px;
+}
+#dialog_referral_user ul li {
+    padding-left: 5px;
+    position: relative;
+    list-style-type: disc;
+    list-style-image: url(../images/disc-02.png);
+    list-style-position: outside;
+}
+#dialog_referral_user ul::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: -5px;
+    position: absolute;
+    width: 10px;
+}
+#dialog_referral_user ul li:last-child::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: calc(100% - 15px);
+    left: -15px;
+    position: absolute;
+    width: 10px;
+}
+.woocommerce_page_wc_referral .wrap{
+    position: relative
+}
+.woocommerce_page_wc_referral .wrap.loading::after,
+#dialog_referral_user.loading::after {
+    background: rgba(255, 255, 255, 0.5) url("../images/loader.gif") no-repeat scroll center center;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#referral_user_form .tablenav .actions{
+    margin-bottom: 10px;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    display: block;
+    float: none;
+    padding: 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+}
+
+#referral_user_form .tablenav .actions input[type="text"] {
+    margin-right: 9px;
+}
+
+#referral_user_form .tablenav .actions lable {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+#referral_user_form .tablenav .actions .button{
+    margin: 0 0 0 10px
+}
+.in_active{
+    position: relative;
+}
+.in_active::after {
+    border-color: red;
+    border-image: none;
+    border-style: solid none;
+    border-width: 1px 0;
+    content: "";
+    display: block;
+    height: 10%;
+    margin-top: 8px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.in_active_user_panel {
+    position: relative;
+    float: right;    
+}
+
+#wmr_general_setting_panel {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+#wmr_general_setting_panel .submit {
+    position: absolute;
+}
+
+#wmr_general_setting_panel h3 {
+    background: #9dadbd none repeat scroll 0 0;
+    color: #fff;
+    margin: 0 -10px;
+    padding: 10px;
+}
+
+#wmr_general_setting_panel .forminp.forminp-select .set_position{
+    margin-left: 54px;
+    margin-top: -82px;
+}
+
+
+.woocommerce_page_wc_referral thead tr,
+.woocommerce_page_wc_referral tfoot tr {
+    background: #a9bbcc none repeat scroll 0 0;
+}
+.woocommerce_page_wc_referral thead tr th,
+.woocommerce_page_wc_referral tfoot tr th,
+.woocommerce_page_wc_referral thead tr a,
+.woocommerce_page_wc_referral tfoot tr a {
+    color: #fff;
+    font-weight: bold;
+}
+#referral_user_form .view_hierarchie a.view_hierarchie {
+    background-image: url("../images/hierarchy.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+#referral_user_form .view_hierarchie a:focus,
+#referral_user_form .view_hierarchie a:focus .media-icon img{
+    box-shadow: none;
+}
+#referral_user_form .view_hierarchie a:hover {
+    background-position: center bottom;
+}
+#view_hierarchie a{
+    text-align: center
+}
+#view_hierarchie span{
+    float: none
+}
+#view_hierarchie .sorting-indicator{
+    display: none
+}
+body.woocommerce_page_wc_referral .ui-dialog {
+    border-radius: 0;
+    bottom: 0 !important;
+    left: auto !important;
+    padding: 5px;
+    position: fixed;
+    right: 0 !important;
+    top: auto !important;
+}
+body.woocommerce_page_wc_referral .ui-dialog .ui-dialog-titlebar {
+    background: #a9bbcc none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    margin: -5px -5px 0
+}
+#referral_user_form .referral_code.column-referral_code > div {
+    height: 40px;
+    overflow: hidden;
+}
+
+
+#referral_program_statistics > div {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 6px;
+    display: inline-block;
+    margin-right: 1%;
+    width: 23.8%;
+}
+.total_users_panel {
+    border: 1px solid #a9bbcc;
+}
+#referral_program_statistics .icon {
+    background: #a9bbcc none repeat scroll 0 0;
+    display: block;
+    float: left;
+    /*height: 100%;*/
+    padding: 20px;
+}
+#referral_program_statistics .icon .dashicons {
+    color: #fff;
+    font-size: 60px;
+    height: auto;
+    width: auto;
+}
+#referral_program_statistics .icon .dashicons::before {
+    height: auto;
+    width: auto;
+}
+#referral_program_statistics {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px
+}
+#referral_program_statistics .total_redeem_panel {
+    border: 1px solid #66afcc;
+    margin: 0;
+}
+#referral_program_statistics .total_redeem_panel .icon {
+    background: #66afcc none repeat scroll 0 0;
+}
+#referral_program_statistics .total_earn_panel {
+    border: 1px solid #0085ba;
+}
+#referral_program_statistics .total_earn_panel .icon {
+    background: #0085ba none repeat scroll 0 0;
+}
+#referral_program_statistics .total_referral_panel {
+    border: 1px solid #6a7580;
+}
+#referral_program_statistics .total_referral_panel .icon {
+    background: #6a7580 none repeat scroll 0 0;
+}
+#referral_program_statistics .number {
+    font-size: 36px;
+    line-height: 100%;
+    padding-top: 20px;
+}
+
+#referral_user_form .tablenav.bottom .actions {
+    display: none;
+}
+
+#referral_user_form #display_name {
+    width: 14%;
+}
+#referral_user_form #no_of_followers{
+    text-align: center;
+    width: 14%;
+}
+#referral_user_form #total_credits{
+    text-align: center;
+    width: 12%;
+}
+#referral_user_form #view_inaciver_user,
+#referral_user_form #deactivate_date,
+#referral_user_form #join_date{
+    width: 14%;
+}
+#referral_user_form #view_hierarchie{
+    width: 85px;
+}
+#referral_user_form #referral_code{
+    width: 12%;
+}
+
+.woocommerce_page_wc_referral .wp-list-table #order_id,
+.woocommerce_page_wc_referral .wp-list-table #credits{
+    width: 13%;
+}
+.woocommerce_page_wc_referral .wp-list-table #redeems{
+    width: 15%;
+}
+.woocommerce_page_wc_referral .tablenav .tablenav-pages{
+    margin-bottom: 15px
+}
+.woocommerce_page_wc_referral .wp-list-table .amount {
+    display: block;
+    text-align: right;
+    padding-right: 20px
+}
+
+#referral_user_form .no_of_followers{
+    padding-right: 40px;
+    text-align: right;
+}
+.woocommerce_page_wc_referral .wp-list-table .total_credits .amount{
+    padding-right: 25px
+}
+.woocommerce_page_wc_referral .wrap h1 {
+    color: #0073aa;
+    font-family: open sans;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.woocommerce .wmc_error + #message{
+    display: none;
+}

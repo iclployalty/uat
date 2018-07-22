@@ -1,0 +1,33 @@
+<wpml-config>
+	<admin-texts>
+	 <key name="rehub_option"></key>
+	  <key name="rehub_logo"></key>	
+	  <key name="header_six_btn_txt"></key>	  
+	  <key name="rehub_text_logo"></key>
+	  <key name="rehub_text_slogan"></key>
+	  <key name="rehub_newstick_label"></key>
+	  <key name="rehub_footer_text"></key>
+	  <key name="rehub_homecarousel_label_text"></key>
+	  <key name="rehub_btn_text"></key>
+	  <key name="rehub_btn_text_aff_links"></key>
+	  <key name="rehub_mask_text"></key>
+	  <key name="rehub_review_text"></key>
+	  <key name="rehub_readmore_text"></key>
+	  <key name="rehub_search_text"></key>
+	  <key name="rehub_btn_text_best"></key>
+	  <key name="rehub_choosedeal_text"></key>
+	  <key name="rehub_related_text"></key>
+	  <key name="rehub_commenttitle_text"></key>
+	  <key name="buy_best_text"></key>
+	  <key name="amp_custom_in_header"></key>
+	  <key name="rh_bp_user_post_name"></key>
+	  <key name="rh_bp_user_product_name"></key>
+	  <key name="rh_bp_custom_message_profile"></key>	  	  	  	  
+	  <key name="badge_label_1"></key>
+	  <key name="badge_label_2"></key>
+	  <key name="badge_label_3"></key>
+	  <key name="badge_label_4"></key>
+	  <key name="header_seven_more_element"></key>
+	  <key name="rehub_user_rev_criterias"></key>	  	  	  	  
+	</admin-texts>  
+</wpml-config>

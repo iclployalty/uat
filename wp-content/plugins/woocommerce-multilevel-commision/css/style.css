@@ -1,0 +1,112 @@
+.store_credit_notice {
+    margin-bottom: 20px
+}
+.store_credit_notice form{
+    display: none;
+    text-align: center
+}
+.store_credit_notice form *{
+    display: inline-block;
+    width: auto;
+}
+.store_credit_notice .notice{
+    color: red
+}
+.hide{
+    display: none;
+}
+#dialog-invitation-form form{
+    width:100%;
+    max-width:100%;
+}
+#dialog-invitation-form table{
+    border-width: 1px;
+    width: 100%; 
+}
+#dialog-invitation-form table td{
+    border: 0;
+}
+.referral_program_details .btn-invite-friends{
+    right: 0;
+    position: absolute !important;
+}
+div.referral_program_details{
+    position: relative;
+}
+.referral_program_details form input[type=text].input-text{
+    width:100%;
+}
+.referral_program_details form input[type=submit].button {
+    margin: 0 !important;
+}
+.woocommerce .wmc_join_form form .form-row input.input-text{
+    width:50%;
+}
+.wmc_join_form {
+    padding: 10px 20px;
+    border: 1px solid #eee;
+}
+.wmc-invite-friends .input-text{
+    width: 100%;
+}
+#wmc-social-media{
+    margin-bottom: 20px;
+}
+#wmc-social-media .wmc-banner-list select{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.woocommerce-checkout select#join_referral_program{
+    width: 100%;
+    padding: 10px 5px;
+}
+#wmc-social-media .wmc-banners .wmc-banner-preview img{
+     -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#wmc-social-media .wmc-banners .wmc-banner-preview img.transparent {
+    opacity:0;
+}
+.wmc-banner-preview{
+    position:relative;
+}
+.wmc-banner-preview div {
+    position: absolute;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    line-height: 45px;
+}
+.wmc-banner-preview .bottom-strip{
+    bottom: 6px;
+}
+.wmc-show-affiliates .view_hierarchie a.view_hierarchie {
+    background-image: url("../images/plus-minus.png");
+    background-position: center 2px;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+.wmc-show-affiliates .view_hierarchie a.view_hierarchie.wmcOpen{
+   background-position: center -20px; 
+}
+.wmc-show-affiliates .view_hierarchie a.view_hierarchie.wmcClose{
+   background-position: center 2px;
+}
+.wmc-show-affiliates .view_hierarchie a:focus,
+.wmc-show-affiliates .view_hierarchie a:focus .media-icon img{
+    box-shadow: none;
+}
+.wmc-show-affiliates .view_hierarchie a:hover {
+    
+}
+.wmc-show-affiliates .wmc-child{
+    display: none;
+}

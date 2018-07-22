@@ -1,0 +1,338 @@
+#awesome-content .wp-awesome-content .tbData {
+    display:none
+}
+
+#awesome-content .submitImportForm .tblData td{
+    font-size:14px;
+}
+
+#awesome-content  .submitImportForm .tblData th{
+    font-size:16px;
+}
+
+#awesome-content .wp-awesome-content label,#awesome-content .wp-awesome-content input,#awesome-content .wp-awesome-content button,#awesome-content .wp-awesome-content select,#awesome-content .wp-awesome-content textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+#awesome-content .wp-awesome-content select{
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*Export Forms*/
+#awesome-content .submitWPAIEForm .control-group {
+    width:100%;
+ //   margin-bottom:10px;
+    padding-top: 10px;
+}
+
+#awesome-content  .submitWPAIEForm .control-group .control-label {
+    float: left;
+    width: 40%;
+    text-align: center;
+    line-height: 1;
+    padding-top: 10px;
+}
+
+#awesome-content  .submitWPAIEForm .control-group .controls {
+    float: left;
+    width: 60%;
+    text-align:left;
+}
+
+#awesome-content .submitWPAIEForm .control-group select.w-wrap {
+    width: 300px;
+    background-color: #ffffff;
+    background-image: none !important;
+    filter: none !important;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    //   float:left;
+    border-radius:4px;
+}
+
+#awesome-content .submitWPAIEForm .control-group select.w-wrap{
+    //   float:right;
+    margin-right:24%;
+    border-radius: 4px;
+}
+
+#awesome-content #exportSettingForm .control-group select.w-wrap {
+    //  margin-right:23% !important;
+}
+
+#awesome-content .settings .control-group select.w-wrap{
+    float:right;
+    margin-right:23%;
+}
+
+#awesome-content .import .control-group select.w-wrap{
+    float:left;
+}
+
+#awesome-content .submitWPAIEForm .control-group input[type=text],#awesome-content .submitWPAIEForm .control-group input[type=url],#awesome-content .submitWPAIEForm .control-group select,#awesome-content .submitWPAIEForm .control-group textarea {
+    width: 413px;
+}
+
+#awesome-content .submitWPAIEForm .control-group input[type=text]{
+    float: left;
+    //    margin-right:24%;
+    border-radius: 4px;
+}
+
+#awesome-content .submitWPAIEForm .control-group input[type=file]{
+    font-size: 14px !important;
+}
+
+#awesome-content #xmlRootElement , #csvDelimiter ,#categorySeparator , #termSeparator{
+    margin-right:23% !important;
+}
+
+#awesome-content .submitWPAIEForm .control-group .controls .submit,#awesome-content .importInfo .submit {
+    padding: 5px 15px;
+    background: #3fb0ac;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+    border-radius: 0px !important;
+    border:1px solid #DDD;
+    cursor: pointer;
+}
+#awesome-content.import importInfo
+{
+        float: right;
+}
+#awesome-content.import .backButton{
+    padding: 9px 15px;
+    background: #3fb0ac;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+    border-radius: 0px !important;
+    border:1px solid #DDD;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#awesome-content .submitWPAIEForm .controls .textarea {
+    width:500px;
+    height:150px;
+}
+
+#awesome-content .help-inline {
+    font-size:10px;
+    background:url("../images/qmark.png") no-repeat;
+    width:15px;
+    height:15px;
+    float:left;
+}
+
+#awesome-content .heading {
+    width:100%;
+    height: 34px;
+    line-height: 30px;
+    background:#3fb0ac;
+    color:#fff;
+    margin-bottom:10px; 
+    border-top:2px solid #DDD;
+    border-bottom: 2px solid #DDD;
+}
+
+#awesome-content .heading span {
+    padding-left:10px;
+    vertical-align:middle;
+    font-weight:bold;
+}
+
+#awesome-content .result {
+    margin-bottom:10px;
+}
+
+#awesome-content #mapFields {
+    float:left;
+    width:100%;
+}
+
+#awesome-content #loadingmessage {
+    display:none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )  url('../images/ajax-loader.gif')  50% 50%  no-repeat;
+    opacity: 0.80;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 80);
+    filter: alpha(opacity = 80)
+}
+
+#awesome-content{
+    width: 90%;
+    background: #FFFFFF;
+    padding: 10px;
+    margin:15px;
+    border:1px solid #DDDDDD;
+    box-shadow: 1px 1px 1px #DDD;
+
+}
+
+#awesome-content .downloadLink a {
+    font-weight:bold;
+    color:#E86850;
+}
+
+#awesome-content .ms-drop ul > li{
+    text-align:left !important;
+}
+
+#awesome-content button.ms-choice{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+#awesome-content .result table th,#awesome-content .result table td,#awesome-content .result table td a{
+    color:#fff;
+}
+
+#awesome-content .result table td a{
+    text-decoration: underline;
+}
+
+#awesome-content .import_result table th,#awesome-content .import_result table td,#awesome-content .import_result table td a{
+    color:#000 !important;
+}
+
+#awesome-content .span_or{ color: #E8693D}
+
+#awesome-content .nextDivXlear .control-label{
+    width: 45% !important;
+    padding: 10px;
+    text-align: left !important;
+}
+
+#awesome-content .nextDivXlear .controls{
+    width:50% !important;
+    text-align: left !important;
+}
+
+#awesome-content  .nextDivXlear{
+    clear: both;
+}
+
+#awesome-content .fileUpload .control-label,#awesome-content .fileUploadPath .control-label{
+    width:45% !important;
+    text-align: left !important;
+    //padding-top: 12px !important;
+    padding: 10px;
+}
+
+#awesome-content .fileUploadPath .controls{
+    width: 50% !important;
+}
+
+#awesome-content .submitWPAIEForm .fileUploadPath .controls input[type="text"]{
+    margin-right: 0 !important;
+    width:100% !important;
+}
+
+#awesome-content .submitWPAIEForm .importSub{
+    width: 100% !important;
+    text-align: center !important;
+}
+
+#awesome-content .submitWPAIEForm .importSub{
+    width: 100% !important;
+    text-align: center !important;
+}
+
+/**********/
+#awesome-content.settings .controls{
+    padding-top:7px !important;
+    padding-bottom:7px !important;
+}
+
+#awesome-content.settings .control-label{
+    line-height:0;
+}
+
+#awesome-content.settings .control-group input[type="text"], #awesome-content.settings .control-group input[type="url"], #awesome-content.settings .control-group select, #awesome-content.settings .control-group textarea{
+    width: 300px !important;
+    float:none;
+    margin-right:0px !important;
+}
+
+#awesome-content.settings #xmlRootElement{
+    margin-right:0px !important;
+}
+
+#awesome-content.export .controls{
+    padding-top:7px !important;
+    padding-bottom:7px !important;
+}
+
+#awesome-content.export .control-label{
+    line-height:0 ;
+}
+
+#awesome-content.export .control-group input[type="text"], #awesome-content.export .control-group input[type="url"],#awesome-content.export .control-group select, #awesome-content.export .control-group textarea{
+    width: 300px !important;
+    float:none !important;
+    margin-right:0px !important;
+}
+
+#awesome-content.settings .control-group input[type="radio"]{
+    margin: 4px;
+}
+
+#awesome-content.filemanager input[type="search"]{
+    line-height: 18px !important;
+}
+
+#awesome-content.settings .setting_name{
+    float: left;
+    width: 250px;
+    text-align: right;
+}
+#awesome-content.export .exportSubmit,#awesome-content.settings .settingSubmit{
+    float: right !important;
+}
+
+#awesome-content.export .control-label{
+    text-align: right !important;
+}
+#awesome-content.export .controls{
+    text-align: center !important;
+}
+
+#awesome-content.filemanager .dataTables_filter label,#awesome-content.filemanager .dataTables_length label{
+    color:#fff !important;
+}
+
+#awesome-content.filemanager .dataTables_info,#awesome-content.filemanager .dataTables_paginate a{
+    color:#fff !important;
+}
+#awesome-content.filemanager .dataTables_paginate a.current{
+    color:#333 !important;
+}
+#awesome-content.filemanager .dataTables_paginate a.disabled{
+    color:#333 !important;
+}
+#awesome-content .wpaie-fileUploadPath .wpaie-importmethod{
+    display:none;
+}
+
+#awesome-content table.tblData tbody tr td{
+    border-bottom: 1px solid #fff;
+}
+
+#awesome-content table.tblData tbody tr td:last-child,#awesome-content table.tblData tbody tr:last-child td:first-child{
+    border-bottom: 1px solid transparent;
+}
+
+#awesome-content .mapFields .select2-container{
+    width:186px !important;
+}
