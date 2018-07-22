@@ -1,0 +1,7 @@
+ID,post_author,eh_user_email,eh_user_name,post_date,post_date_gmt,post_content,post_title,post_status,comment_status,ping_status,post_password,post_name,post_parent,guid,menu_order,post_type,post_mime_type,comment_count,post_alter_id
+,1,ponthilagan@xadapter.com,Harley,2016-12-12 11:30:33,2016-12-12 11:30:33,First Test,New Test Fedex Forum 1,publish,closed,open,,new-test-fedex-forum-1,0,http://localhost/wordpress/?post_type=forum&#038&p=554,0,forum,,0,554
+,1,ponthilagan@xadapter.com,Harley,2016-02-03 22:28:00,2016-02-03 16:58:00,does this supports all currencies? ,does this supports all currencies?,publish,open,open,,does-this-supports-all-currencies,554,http://localhost/wordpress/?post_type=topic&#038&p=555,0,topic,,0,555
+,0,hoganplanit@gamil.com,Thilak,2016-02-04 12:23:00,2016-02-04 06:53:00,Yes. Its Support.,Reply No:13,publish,open,open,,reply-no13,555,http://localhost/wordpress/?post_type=reply&#038&p=556,1,reply,,0,556
+,1,ponthilagan@xadapter.com,Harley,2016-02-05 05:10:00,2016-02-04 23:40:00,Is there a dry ice option?,Is there a dry ice option?,publish,open,open,,is-there-a-dry-ice-option,554,http://localhost/wordpress/?post_type=topic&#038&p=557,0,topic,,0,557
+,0,hoganplanit@gamil.com,Thilak,2016-02-05 16:47:00,2016-02-05 11:17:00,"
+Currently dry ice option is not available in our plugin. We will try to include this option in future release.",Reply No:15,publish,open,open,,reply-no15,557,http://localhost/wordpress/?post_type=reply&#038&p=558,1,reply,,0,558
